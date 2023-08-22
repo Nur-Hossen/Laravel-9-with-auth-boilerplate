@@ -1,0 +1,36 @@
+/* Custom page CSS
+-------------------------------------------------- */
+.login-background-image {
+  background-image: url("../dist/img/login-background-1.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-content-margin-top {
+  margin-top: -24px;
+}
+
+.btn-card-header {
+  font-size: 1.0rem;
+  margin: -0.75rem 0;
+  padding: 0.25rem 1.5rem;
+}
+
+.table-pagination-section .dataTables_info {
+  padding-top: 0.85em;
+}
+
+.table-pagination-section div.dataTables_paginate {
+  margin: 0;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.table-pagination-section div.dataTables_paginate ul.pagination {
+  margin: 2px 0;
+  white-space: nowrap;
+  justify-content: flex-end;
+}
